@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-variation-settings: "slnt" 0;
+}
+
+.navbar {
+    /* background-color:beige; */
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    padding: 12px 80px;
+    align-items: center;
+}
+
+/* .navbar_right{
+    display: flex;
+    gap: 16px;
+   
+} */
+.navbar_right {
+    margin-left: auto;
+    text-align: right;
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+
+}
+
+.navbar_left {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+.btn1 {
+    background-color: #a855f7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+
+
+
+}
+
+.btn2 {
+    background-color: white;
+    color: #1f2937;
+    padding: 10px 20px;
+    border: 2px solid #a855f7;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.btn1:hover {
+    transform: scale(1.1);
+
+
+
+}
+
+.btn2:hover {
+    transform: scale(1.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo span {
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.logo img {
+    width: 24px;
+    height: 24px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #6b7280;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/*hero Section */
+.hero-section {
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.hero-section span {
+    font-size: 14px;
+    font-weight: 500;
+    color: #a855f7;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #101828;
+}
+
+.hero-section p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #475467;
+}
+
+.suscribe-form {
+    display: flex;
+    gap: 16px;
+
+}

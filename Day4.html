@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            font-family: "Mulish", sans-serif;
+        }
+
+        .txt {
+            font-size: 34px;
+            font-weight: 900;
+            letter-spacing: 10px;
+        }
+
+        p {
+            line-height: 30px;
+            color: green;
+        }
+
+
+        .bg {
+            width: 300px;
+            height: 900px;
+            /* background-color: red; */
+            border: 1px solid red;
+            background-image: url('./bluet.png');
+            /* background-size: contain;*/
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .display-property {
+            /* display: none;
+            display: block; 
+            display: inline-block;
+            float: left;*/
+            display: flex;
+            gap: 10px;
+            flex-direction: column;
+        }
+
+        .margin-padding {
+            width: 200px;
+            height: 200px;
+            border: 2px solid black;
+            padding: 10px;
+            margin: 100px;
+        }
+
+        .btn-primary {
+            background-color: blue;
+            color: white;
+            padding: 16px 32px;
+            border: none;
+            border-radius: 8px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="">
+        <span class="txt">Font Styling</span>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque modi fugiat reiciendis quam iure, expedita
+            est sequi minus magnam placeat nulla itaque labore ut. Labore sit iusto, ducimus natus, harum perferendis
+            vitae ullam mollitia quidem nobis rerum voluptates at nemo nulla a explicabo pariatur, hic assumenda optio
+            inventore neque asperiores voluptas amet impedit. Cum illo facere modi? Tenetur doloremque nam alias beatae
+            quis vero blanditiis sit quam quas, quia maiores voluptate voluptatibus corporis nesciunt, aperiam, quo
+            nulla deserunt! Quos ducimus, obcaecati eveniet corrupti tempore id maiores accusantium libero nemo placeat
+            blanditiis quidem nihil maxime voluptatibus sapiente optio ad exercitationem provident!</p>
+    </div>
+    <div class="bg"></div>
+
+    <div class="display-property">
+        <div style="background-color: red; width: 200px; height: 200px;">day 1</div>
+        <div style="background-color: green; width: 200px; height: 200px;">day 2</div>
+        <div style="background-color: yellow; width: 200px; height: 200px;">day 3</div>
+        <div style="background-color: aqua; width: 200px; height: 200px;">day 4</div>
+    </div>
+
+
+    <br>
+
+
+    <div class="margin-padding">
+        <div class="" style="width: 100%; height: 100%; background-color: aqua;"></div>
+    </div>
+
+    <button class="btn-primary">Read More</button>
+
+    <button class="btn-primary">Next page</button>
+
+</body>
+
+</html>

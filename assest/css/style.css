@@ -1,0 +1,21 @@
+.cardone {
+    width: 320px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e5e7eb;
+    padding: 16px;
+    margin: 100px;
+}
+
+.cardone img {
+    width: 100%;
+}
+
+.cardone h3 {
+    font-size: 24px;
+    color: green;
+}
+
+.cardone .image {
+    background-color: #d1d5db;
+}

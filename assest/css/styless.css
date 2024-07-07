@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-variation-settings: "slnt" 0;
+}
+
+.navbar {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(229, 233, 239);
+  padding: 12px 80px;
+  align-items: center;
+  /* margin: 0 80px; */
+}
+
+.navbar_left {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+
+/* logo */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo span {
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.log img {
+  width: 24px;
+  height: 24px;
+}
+
+.navbar_right {
+  display: flex;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: rgb(34, 33, 33);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
+/* button */
+.btn {
+  /* border: 1px solid red; */
+  border: none;
+  padding: 12px 24px;
+  background-color: transparent;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.btn-primary {
+  background-color: rgb(85, 0, 255);
+  color: white
+}
+
+
+/* hero section */
+
+.hero-section {
+  padding: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+  text-align: center;
+}
+
+.hero-section span {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(85, 0, 255);
+}
+
+.hero-section h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  color: #101828;
+  margin-bottom: 12px;
+}
+
+.hero-section p {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #475467;
+  margin-bottom: 28px;
+  width: 70%;
+}
+
+.subscribe-form {
+  display: flex;
+  gap: 16px
+}
+
+.subscribe-form input {
+  padding: 12px 16px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #667085;
+  border: 1px solid #d0d5d0;
+  border-radius: 8px;
+}
+
+.subscribe-container {
+  text-align: left;
+}
+
+.subscribe-container span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #475467;
+}
+
+.subscribe-container a {
+  font-size: 16px;
+  /* font-weight: 400; */
+  color: #475467;
+}
+
+/*recent-blog-section*/
+
+.recent-blog-section {
+  padding: 80px;
+  display: flex;
+  gap: 25px;
+
+}
+
+.recent-blog-section.left {
+  width: 300px;
+  overflow: hidden;
+}
+
+.recent-blog-section .left,
+.recent-blog-section .right {
+  display: flex;
+  flex: 0.5;
+
+}
